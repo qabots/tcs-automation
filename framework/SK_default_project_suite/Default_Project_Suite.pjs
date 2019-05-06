@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.0" key="{504DAF89-D5BE-40C7-BDB9-ECD199D2F4C0}">
+	<children>
+		<child name="TCS_project" key="{2C96C720-74F2-4027-843C-A50D0C59C272}" path="TCS_project\TCS_project.mds" />
+	</children>
+	<testItems key="{0427EB77-868D-456B-9FAA-E08F6D813D4C}">
+		<children>
+			<testItem key="{2C96C720-74F2-4027-843C-A50D0C59C272}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{5BCB1339-9D37-4A0D-A405-5A63B6911FD8}">
+		<data Version="3">
+			<Items>
+				<Variable Name="exeStartTime" Type="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}" Local="True">
+					<DefValue />
+				</Variable>
+				<Variable Name="gPictureLogPath" Type="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}" Local="True">
+					<DefValue />
+				</Variable>
+				<Variable Name="strTestCaseHTMLFilePath" Type="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}" Local="True">
+					<DefValue />
+				</Variable>
+				<Variable Name="totalTCCount" Type="{88422C25-DDF4-4EA1-B7CC-95779A023F5D}" Local="True">
+					<DefValue IntValue="0" />
+				</Variable>
+				<Variable Name="passTCCount" Type="{88422C25-DDF4-4EA1-B7CC-95779A023F5D}" Local="True">
+					<DefValue IntValue="0" />
+				</Variable>
+				<Variable Name="failTCCount" Type="{88422C25-DDF4-4EA1-B7CC-95779A023F5D}" Local="True">
+					<DefValue IntValue="0" />
+				</Variable>
+			</Items>
+		</data>
+	</variables>
+	<analysis key="{A4D9BDA7-CBDE-433D-82A5-B462EEEF3070}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+	<extender key="{1A3FC97E-9A66-4716-B166-35D10B4146E0}">
+		<CrossBrowserTesting Enable="True" />
+	</extender>
+</Root>
